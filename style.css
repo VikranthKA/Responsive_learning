@@ -1,0 +1,58 @@
+@keyframes fade-in{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+p{
+    color:red
+}
+
+div .heading{
+    color:blue;
+    font-size:50px;
+    font-family:'Times New Roman', Times, serif;
+    padding: 10px;
+    border:2px solid black;
+    animation: fade-in 1s ;
+}
+div .attraction{
+    text-align: center;
+}
+.input{
+    display: block;/*the submit in new line*/
+    margin-left: 500px;
+    transform: scale(2);/*increase the size*/
+    transform: translate(200px);/*move left-right*/
+    transition: transform 1s;
+}
+
+.submit{
+    color: #15db9c;
+    background: rgba(19, 185, 223, 0.5);
+
+    /* a is opacity */
+    transform: rotate(50deg);
+
+}
+
+
+.submit:hover{
+    transform: scale(2);
+}
+
+.input:focus{
+    cursor:pointer;
+    transform: scale(2);
+}
+
+
+
+
