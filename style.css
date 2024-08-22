@@ -21,10 +21,14 @@ div .heading{
     font-family:'Times New Roman', Times, serif;
     padding: 10px;
     border:2px solid black;
-    animation: fade-in 1s ;
+    animation: fade-in 5s ;
 }
 div .attraction{
     text-align: center;
+}
+
+div ul li{
+    outline:2px dashed blueviolet;
 }
 .input{
     display: block;/*the submit in new line*/
@@ -52,6 +56,39 @@ div .attraction{
     cursor:pointer;
     transform: scale(2);
 }
+
+.static{
+    position: static;
+}
+
+.relative{
+    position: relative;
+    text-transform:uppercase;
+    /* left:100px; */
+    top:100px;
+
+}
+.absolute{
+
+}
+.fixed{
+
+}
+
+.sticky{
+
+}
+
+iframe{
+    width: 100vw;
+    height: 100vh;
+}
+
+img{
+    width: 100vw;
+    height: 100vh;
+}
+
 
 
 
