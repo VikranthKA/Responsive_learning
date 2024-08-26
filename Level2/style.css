@@ -19,27 +19,27 @@ html{
     /* text-decoration: underline; */
 }
 
-/* .heading::before{
-    content:'test';
-} */
-
 .heading::before{
+    content:'test';
+}
+
+/* .heading::before{
     content:"";
     height: 10px;
     width: 75px;
     background-color: darkgoldenrod;
     display: block;
-}
+} */
 
 
 .box-container{
     background-color: orange;
     height: 1000px;
     /* display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    justify-content: center; */
-    position: relative;
+    justify-content: center;*/
+    position: relative; 
     z-index: 6;
 
     
