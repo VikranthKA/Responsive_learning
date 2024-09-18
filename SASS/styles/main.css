@@ -1,0 +1,56 @@
+.card {
+  width: 300px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  font-family: "Arial", sans-serif;
+}
+.card_img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+.card_title {
+  font-size: 24px;
+  color: #3498db;
+  margin: 10px 0;
+}
+.card__subtitle {
+  font-size: 18px;
+  color: #2ecc71;
+  margin-bottom: 20px;
+}
+.card__socials {
+  margin: 20px 0;
+}
+.card__socials a {
+  font-size: 20px;
+  margin: 0 10px;
+  color: #3498db;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.card__socials a:hover {
+  color: #2ecc71;
+}
+.card__button {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.card__button:hover {
+  background-color: #2ecc71;
+}
+@media (max-width: 600px) {
+  .card {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
