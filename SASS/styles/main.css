@@ -18,22 +18,22 @@
   color: #3498db;
   margin: 10px 0;
 }
-.card__subtitle {
+.card_subtitle {
   font-size: 18px;
   color: #2ecc71;
   margin-bottom: 20px;
 }
-.card__socials {
+.card_socials {
   margin: 20px 0;
 }
-.card__socials a {
+.card_socials a {
   font-size: 20px;
   margin: 0 10px;
   color: #3498db;
   text-decoration: none;
   transition: color 0.3s ease;
 }
-.card__socials a:hover {
+.card_socials a:hover {
   color: #2ecc71;
 }
 .card__button {
